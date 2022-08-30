@@ -18,6 +18,10 @@ export const TUTORIAL_ITEMS = generateConstantId([
     name: 'Minimum & Maximum Date',
   },
   {
+    path: '/docs/focused-date',
+    name: 'Focused Date',
+  },
+  {
     path: '/docs/disabled-days',
     name: 'Disabled Day(s)',
   },
@@ -103,6 +107,7 @@ export const PROPS_TABLE_CALENDAR_ROWS = [
   ['locale', 'String', 'en', `Locale language of the calendar. It can be one of 'fa' or 'en'`],
   ['minimumDate', 'Object', `null`, 'Specifies the minimum selectable day by user'],
   ['maximumDate', 'Object', `null`, 'Specifies the maximum selectable day by user'],
+  ['focusedDate', 'Object', `null`, `Specifies the date you want to focus on. You don't need to specify the day`],
   ['disabledDays', 'Array', `[]`, `An array of disabled calendar days. Disabled days won't be selectable, and
     they can't be included in a day range. If user tries to select/include them onDisabledDayError will be called`
   ],
