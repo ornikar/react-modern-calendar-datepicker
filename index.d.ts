@@ -6,6 +6,8 @@ export type Day = {
   day: number;
 };
 
+export type Month = Omit<Day, 'day'>;
+
 export type DayValue = Day | null | undefined;
 
 export type DayRange = { from: DayValue; to: DayValue };
@@ -23,6 +25,7 @@ export interface CalendarProps<TValue extends Value> {
   locale?: string | Locale;
   minimumDate?: Day;
   maximumDate?: Day;
+  focusedDate?: Day | Month;
   disabledDays?: Day[];
   shouldHighlightWeekends?: boolean;
   colorPrimary?: string;
