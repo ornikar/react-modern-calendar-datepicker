@@ -1,5 +1,5 @@
 {
-  "name": "@hassanmojab/react-modern-calendar-datepicker",
+  "name": "@ornikar/react-modern-calendar-datepicker",
   "version": "3.1.7",
   "description": "A modern, beautiful, customizable date picker for React",
   "main": "lib/index.js",
@@ -24,10 +24,10 @@
   "homepage": "https://kiarash-z.github.io/react-modern-calendar-datepicker",
   "repository": {
     "type": "git",
-    "url": "https://github.com/HassanMojab/react-modern-calendar-datepicker.git"
+    "url": "https://github.com/ornikar/react-modern-calendar-datepicker.git"
   },
   "bugs": {
-    "url": "https://github.com/HassanMojab/react-modern-calendar-datepicker/issues"
+    "url": "https://github.com/ornikar/react-modern-calendar-datepicker/issues"
   },
   "license": "MIT",
   "keywords": [
