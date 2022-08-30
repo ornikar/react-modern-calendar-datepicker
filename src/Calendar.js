@@ -28,6 +28,7 @@ const Calendar = ({
   shouldHighlightWeekends,
   renderFooter,
   customDaysClassName,
+  focusedDate,
 }) => {
   const calendarElement = useRef(null);
   const [mainState, setMainState] = useState({
@@ -68,6 +69,14 @@ const Calendar = ({
   const toggleYearSelector = createStateToggler('isYearSelectorOpen');
 
   const getComputedActiveDate = () => {
+    if (focusedDate) {
+      return {
+        year: focusedDate.year,
+        month: focusedDate.month,
+        day: focusedDate.day || 1,
+      };
+    }
+
     const valueType = getValueType(value);
     if (valueType === TYPE_MUTLI_DATE && value.length) return shallowClone(value[0]);
     if (valueType === TYPE_SINGLE_DATE && value) return shallowClone(value);
