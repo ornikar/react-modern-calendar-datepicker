@@ -15,17 +15,6 @@ const Footer = () => {
       <h1 className={styles.Footer__title}>
         react-modern-calendar-datepicker <span className={styles.Footer__copyright}>By Kiarash Zarinmehr</span>
       </h1>
-      <div className={styles.Footer__githubContainer}>
-        <a
-          className="github-button"
-          href="https://github.com/Kiarash-Z/react-modern-calendar-datepicker"
-          data-icon="octicon-star"
-          data-show-count="true"
-          aria-label="Star Kiarash-Z/react-modern-calendar-datepicker on GitHub"
-        >
-          Star
-        </a>
-      </div>
     </footer>
   )
 };

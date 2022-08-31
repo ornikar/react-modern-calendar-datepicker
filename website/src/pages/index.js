@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Link } from 'gatsby';
-import DatePicker, { Calendar } from 'react-modern-calendar-datepicker';
+import DatePicker, { Calendar } from '@ornikar/react-modern-calendar-datepicker';
 
 import { ReactComponent as Logo } from '../images/logo.svg';
 import { ReactComponent as LogoBackground } from '../images/logo-background.svg';
@@ -106,7 +106,7 @@ const IndexPage = () => {
             Get Started
           </Link>
           <a
-            href="https://github.com/Kiarash-Z/react-modern-calendar-datepicker"
+            href="https://github.com/ornikar/react-modern-calendar-datepicker"
             rel="noopener noreferrer"
             target="_blank"
             className="hero__actionButton -social"

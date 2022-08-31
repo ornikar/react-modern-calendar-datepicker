@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Calendar } from 'react-modern-calendar-datepicker';
+import { Calendar } from '@ornikar/react-modern-calendar-datepicker';
 
 import Docs from '../../containers/docs';
 import { Code } from '../../components';
@@ -62,8 +62,8 @@ const DefaultValues = () => {
         <Code language="javascript">
           {`
 import React, { useState } from "react";
-import "react-modern-calendar-datepicker/lib/DatePicker.css";
-import { Calendar } from "react-modern-calendar-datepicker";
+import "@ornikar/react-modern-calendar-datepicker/lib/DatePicker.css";
+import { Calendar } from "@ornikar/react-modern-calendar-datepicker";
 
 const App = () => {
   const defaultValue = {
@@ -101,8 +101,8 @@ export default App;
         <Code language="javascript">
           {`
 import React, { useState } from "react";
-import "react-modern-calendar-datepicker/lib/DatePicker.css";
-import { Calendar } from "react-modern-calendar-datepicker";
+import "@ornikar/react-modern-calendar-datepicker/lib/DatePicker.css";
+import { Calendar } from "@ornikar/react-modern-calendar-datepicker";
 
 const App = () => {
   const defaultFrom = {
@@ -152,8 +152,8 @@ export default App;
         <Code language="javascript">
           {`
 import React, { useState } from "react";
-import "react-modern-calendar-datepicker/lib/DatePicker.css";
-import { Calendar } from "react-modern-calendar-datepicker";
+import "@ornikar/react-modern-calendar-datepicker/lib/DatePicker.css";
+import { Calendar } from "@ornikar/react-modern-calendar-datepicker";
 
 const App = () => {
   const preselectedDays = [

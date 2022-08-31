@@ -30,7 +30,7 @@ const Navbar = ({ version }) => {
         </li>
         <li>
           <a
-            href="https://github.com/Kiarash-Z/react-modern-calendar-datepicker"
+            href="https://github.com/ornikar/react-modern-calendar-datepicker"
             rel="noopener noreferrer"
             target="_blank"
             className={styles.Navbar__listItem}

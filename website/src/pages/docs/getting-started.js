@@ -36,7 +36,7 @@ const Installation = () => {
       </p>
 
       <Code language="bash">
-        yarn add react-modern-calendar-datepicker
+        yarn add @ornikar/react-modern-calendar-datepicker
       </Code>
 
       <p className="Docs__paragraph">
@@ -44,7 +44,7 @@ const Installation = () => {
       </p>
 
       <Code language="bash">
-        npm i react-modern-calendar-datepicker
+        npm i @ornikar/react-modern-calendar-datepicker
       </Code>
 
       <h2 className="Docs__titleSecondary">Basic Import</h2>
@@ -52,8 +52,8 @@ const Installation = () => {
         After the installation, it&#39;s time to import the package in your app:
       </p>
       <Code language="javascript">
-        {`import 'react-modern-calendar-datepicker/lib/DatePicker.css';
-import DatePicker from 'react-modern-calendar-datepicker';`}
+        {`import '@ornikar/react-modern-calendar-datepicker/lib/DatePicker.css';
+import DatePicker from '@ornikar/react-modern-calendar-datepicker';`}
       </Code>
       <p className="Docs__paragraph">
         Great job! You&#39;re all set. It&#39;s time to write some code now.

@@ -29,7 +29,7 @@ const Installation = () => {
 
       <Code language="javascript">{`
 import React from 'react'
-import DatePicker, { DayValue, DayRange, Day } from 'react-modern-calendar-datepicker'
+import DatePicker, { DayValue, DayRange, Day } from '@ornikar/react-modern-calendar-datepicker'
 
 function App() {
   const [day, setDay] = React.useState<DayValue>(null);

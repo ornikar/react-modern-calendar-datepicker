@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Calendar, utils } from 'react-modern-calendar-datepicker';
+import { Calendar, utils } from '@ornikar/react-modern-calendar-datepicker';
 
 import Docs from '../../containers/docs';
 import { Code } from '../../components';
@@ -41,8 +41,8 @@ const MinimumMaximumDate = () => {
         <Code language="javascript">
           {`
 import React, { useState } from "react";
-import "react-modern-calendar-datepicker/lib/DatePicker.css";
-import { Calendar, utils } from "react-modern-calendar-datepicker";
+import "@ornikar/react-modern-calendar-datepicker/lib/DatePicker.css";
+import { Calendar, utils } from "@ornikar/react-modern-calendar-datepicker";
 
 const App = () => {
   const [selectedDay, setSelectedDay] = useState(null);

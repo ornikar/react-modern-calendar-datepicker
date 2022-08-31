@@ -1,5 +1,5 @@
 import React from 'react';
-import { utils } from 'react-modern-calendar-datepicker';
+import { utils } from '@ornikar/react-modern-calendar-datepicker';
 import { Link } from 'gatsby';
 import Docs from '../../containers/docs';
 
@@ -22,7 +22,7 @@ const Utilities = () => {
 
       <Code language="javascript">
         {`
-import { utils } from 'react-modern-calendar-datepicker';
+import { utils } from '@ornikar/react-modern-calendar-datepicker';
 
 const gregorianToday = utils().getToday(); // { year: ${gregorianToday.year}, month: ${gregorianToday.month}, day: ${gregorianToday.day} }
 const persianToday = utils('fa').getToday(); // { year: ${persianToday.year}, month: ${persianToday.month}, day: ${persianToday.day} }
@@ -33,7 +33,7 @@ const persianToday = utils('fa').getToday(); // { year: ${persianToday.year}, mo
 
       <Code language="javascript">
         {`
-import { utils } from 'react-modern-calendar-datepicker';
+import { utils } from '@ornikar/react-modern-calendar-datepicker';
 const day1 = { year: 2019, month: 10, day: 1 };
 const day2 = { year: 2019, month: 10, day: 2 };
 

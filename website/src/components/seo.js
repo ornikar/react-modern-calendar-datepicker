@@ -54,10 +54,6 @@ function SEO({ description, lang, meta, keywords, title }) {
           content: 'https://user-images.githubusercontent.com/20098648/76241893-f6722880-624a-11ea-9a80-eace8a4a27f0.png',
         },
         {
-          property: `og:url`,
-          content: 'https://kiarash-z.github.io/react-modern-calendar-datepicker',
-        },
-        {
           property: `og:type`,
           content: `website`,
         },
