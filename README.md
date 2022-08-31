@@ -1,7 +1,9 @@
 # react-modern-calendar-datepicker
-[![Build Status](https://travis-ci.org/Kiarash-Z/react-modern-calendar-datepicker.svg?branch=master)](https://travis-ci.org/Kiarash-Z/react-modern-calendar-datepicker) [![codecov.io](https://codecov.io/github/kiarash-z/react-modern-calendar-datepicker/coverage.svg?branch=master)](https://codecov.io/github/kiarash-z/react-modern-calendar-datepicker?branch=master) ![npm](https://img.shields.io/npm/v/react-modern-calendar-datepicker)
+![npm](https://img.shields.io/npm/v/@ornikar/react-modern-calendar-datepicker)
 
 A modern, beautiful, customizable date picker for React.
+
+This is a fork of the great [react-modern-calendar-datepicker](https://github.com/Kiarash-Z/react-modern-calendar-datepicker).
 
 <a href="https://kiarash-z.github.io/react-modern-calendar-datepicker">
 	<img src="https://user-images.githubusercontent.com/20098648/76241893-f6722880-624a-11ea-9a80-eace8a4a27f0.png" alt="hero image" />
@@ -14,6 +16,9 @@ npm i @ornikar/react-modern-calendar-datepicker
 # or if you prefer Yarn:
 yarn add @ornikar/react-modern-calendar-datepicker
 ```
+
+## Fork
+- Add a new prop `focusedDate` to set a date we want to focus on at the initialization. Here are the [specs](website/src/constants/docsConstants.js#L110) and an [example](website/src/pages/docs/focused-date.js).
 
 ## Documentation 📄
 You can find documentation on [the website.](https://kiarash-z.github.io/react-modern-calendar-datepicker/)
